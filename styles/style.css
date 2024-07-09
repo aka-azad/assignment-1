@@ -12,7 +12,14 @@ body {
   width: 1440px;
   margin: 0 auto;
 }
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.title-container {
+  max-width: 852px;
+  margin: 0 auto;
+}
 .primary-title {
   color: rgb(13, 19, 33);
   font-size: 32px;
@@ -105,7 +112,6 @@ nav > button {
 
 /* Why Web Development Section styling starts here */
 .web-dev-info {
-  width: 1140px;
   height: 1395px;
   padding: 80px 97px;
   margin: 74px auto 88px auto;
@@ -188,7 +194,6 @@ nav > button {
 /* Inspiration section starts here */
 
 .inspiration {
-  max-width: 1140px;
   margin: 0 auto 151px auto;
 }
 
@@ -203,7 +208,6 @@ nav > button {
 .youtube-link {
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
-  width: 1140px;
   height: 614px;
   padding: 32px;
 }
@@ -211,4 +215,59 @@ nav > button {
   border-radius: 16px;
   width: 100%;
   height: 100%;
+}
+
+/* Current target starts here */
+
+.target-card-container {
+  margin-top: 48px;
+  margin-bottom: 111px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.target-card {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.target-card > img {
+  height: 56px;
+  width: 56px;
+  margin-bottom: 24px;
+}
+.target-card > h3 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.target-card > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+
+.target-card > a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.card-1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-3 {
+  background: rgba(255, 223, 0, 0.05);
 }
