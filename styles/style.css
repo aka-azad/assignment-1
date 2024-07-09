@@ -8,9 +8,13 @@
   padding: 0;
   font-family: "Azeret Mono", monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 1440px;
   margin: 0 auto;
+  /* scroll-behavior: smooth; */
 }
 main {
   max-width: 1140px;
@@ -58,17 +62,17 @@ nav > h4 {
 }
 
 nav > button {
-  color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
-  line-height: 23px;
-  letter-spacing: 0%;
   text-align: center;
-  box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
-  padding: 17px 24px 17px 24px;
+  padding: 17px 24px;
   opacity: 0.8;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(13, 19, 33);
 }
 
 /* Banner styling starts here */
