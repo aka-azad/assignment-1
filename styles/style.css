@@ -184,3 +184,31 @@ nav > button {
   text-align: center;
   padding: 12px 20px;
 }
+
+/* Inspiration section starts here */
+
+.inspiration {
+  max-width: 1140px;
+  margin: 0 auto 151px auto;
+}
+
+.inspiration-textbox {
+  margin: 0 auto 48px auto;
+  max-width: 852px;
+}
+.inspiration-textbox > h3 {
+  margin-bottom: 24px;
+}
+
+.youtube-link {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+}
+.youtube-link > iframe {
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
