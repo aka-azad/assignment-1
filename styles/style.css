@@ -218,6 +218,9 @@ nav > button {
 }
 
 /* Current target starts here */
+.current-target > .title-container > h3 {
+  margin-bottom: 24px;
+}
 
 .target-card-container {
   margin-top: 48px;
@@ -270,4 +273,59 @@ nav > button {
 }
 .card-3 {
   background: rgba(255, 223, 0, 0.05);
+}
+/* Support section starts here */
+
+.support {
+  height: 313px;
+  border-radius: 16px;
+  padding: 64px 48px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.support-title {
+  margin: 0 auto 24px auto;
+  width: 730px;
+}
+.support-title > h3 {
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+}
+.support-title > p {
+  margin: 0 auto;
+  width: 606px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.support-input {
+  text-align: center;
+}
+
+.input-space {
+  width: 548px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  padding: 19px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  margin: 0 10px;
+  background: rgb(255, 255, 255);
+}
+
+.submit-btn {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 17px 20px;
 }
