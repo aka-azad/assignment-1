@@ -16,6 +16,9 @@ body {
   margin: 0 auto;
   /* scroll-behavior: smooth; */
 }
+button {
+  cursor: pointer;
+}
 main {
   max-width: 1140px;
   margin: 0 auto;
@@ -194,7 +197,10 @@ nav a {
   text-align: center;
   padding: 12px 20px;
 }
-
+.learn-more-btn:hover {
+  background-color: #555963;
+  color: #fdfdfd;
+}
 /* Inspiration section starts here */
 
 .inspiration {
